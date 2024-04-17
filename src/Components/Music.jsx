@@ -4,8 +4,8 @@ import { TbTicket } from "react-icons/tb";
 
 const Music = () => {
     return (
-        <div className="flex  text-black gap-6 " >
-            <div className="card w-full s  bg-base-100 shadow-xl relative">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-6">
+            <div className="card bg-base-100 shadow-xl relative">
                 <figure className="relative">
                     <img src={'https://i.ibb.co/nnLms2x/Rectangle-16.png'} alt="Songs" className="rounded-xl w-full rounded-md object-cover object-center" />
                     <div className="absolute top-2 left-2">
@@ -25,7 +25,7 @@ const Music = () => {
                         <div>
                             <h2 className=" bg-purple-600 w-16 mt-5 mb-4 rounded-xl ">Music</h2>
                             <h2 className='flex items-center gap-2 '> <FaLocationDot /> Celebrity Convention Hall</h2>
-                            <h1 className=' font-bold mt-2'>ROUFIAN’S HSC-24 RAG<br />Day </h1>
+                            <h1 className='font-bold mt-2'>ROUFIAN’S HSC-24 RAG<br />Day </h1>
 
                         </div>
                         <div className='py-2 border-2 px-4 items-center rounded-2xl bg-white'>
@@ -49,7 +49,8 @@ const Music = () => {
                     </div>
                 </div>
             </div>
-            <div className="card w-full    bg-base-100 shadow-xl relative">
+            
+            <div className="card bg-base-100 shadow-xl relative">
                 <figure className="relative">
                     <img src={'https://i.ibb.co/zZRrn1v/Rectangle-16-1.png'} alt="Songs" className="rounded-xl w-full rounded-md object-cover object-center" />
                     <div className="absolute top-2 left-2">
@@ -69,7 +70,7 @@ const Music = () => {
                         <div>
                             <h2 className=" bg-purple-600 w-16 mt-5 mb-4 rounded-xl ">Music</h2>
                             <h2 className='flex items-center gap-2 '> <FaLocationDot /> Celebrity Convention Hall</h2>
-                            <h1 className=' font-bold mt-2'>ROUFIAN’S HSC-24 RAG <br />Day </h1>
+                            <h1 className='font-bold mt-2'>ROUFIAN’S HSC-24 RAG<br />Day </h1>
 
                         </div>
                         <div className='py-2 border-2 px-4 items-center rounded-2xl bg-white'>
@@ -93,7 +94,7 @@ const Music = () => {
                     </div>
                 </div>
             </div>
-            <div className="card w-full  bg-base-100 shadow-xl relative">
+            <div className="card bg-base-100 shadow-xl relative">
                 <figure className="relative">
                     <img src={'https://i.ibb.co/djMBjXj/Rectangle-16-2.png'} alt="Songs" className="rounded-xl w-full rounded-md object-cover object-center" />
                     <div className="absolute top-2 left-2">
@@ -113,7 +114,7 @@ const Music = () => {
                         <div>
                             <h2 className=" bg-purple-600 w-16 mt-5 mb-4 rounded-xl ">Music</h2>
                             <h2 className='flex items-center gap-2 '> <FaLocationDot /> Celebrity Convention Hall</h2>
-                            <h1 className=' font-bold mt-2'>ROUFIAN’S HSC-24 RAG <br />Day </h1>
+                            <h1 className='font-bold mt-2'>ROUFIAN’S HSC-24 RAG<br />Day </h1>
 
                         </div>
                         <div className='py-2 border-2 px-4 items-center rounded-2xl bg-white'>
@@ -137,6 +138,7 @@ const Music = () => {
                     </div>
                 </div>
             </div>
+
         </div>
     );
 };
