@@ -9,7 +9,7 @@ const AutomatedPart = () => {
         <div>
             <h1 className="text-4xl mb-5 mt-10 text-black font-bold">Automated QR Scanner</h1>
             <h2 className="mb-5 text-purple-600"> Scan & Verify The atttendess Deirectly  By Our QR Scanning  <br /> Solution</h2>
-            <div className="gap-6 grid grid-cols-4 shadow-2xl">
+            <div className="gap-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 shadow-2xl">
                 <div className="border-2 p-8 rounded-box text-left text-gray-1000 ">
                     <div class="flex justify-center items-center bg-white rounded-full w-16 h-16 border-2 border-purple-700">
                         <HiCursorClick class="text-purple-700 text-4xl" />
